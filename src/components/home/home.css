@@ -59,7 +59,7 @@
 }
 
 .home__img {
-    background: url(../../assets//profileBW.jpeg);
+    background: url(../../assets//prof.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,3 +183,21 @@
         height: 22px;
     }
 }
+.home__hand {
+    position: relative;
+    animation: moveEffect 2s infinite;  /* Animation for the moving effect */
+  }
+  
+  /* Define your animation */
+  @keyframes moveEffect {
+    0% {
+      transform: translateY(0);  /* Initial position */
+    }
+    50% {
+      transform: translateY(-10px);  /* Move up */
+    }
+    100% {
+      transform: translateY(0);  /* Move back to initial position */
+    }
+  }
+  
