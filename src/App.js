@@ -29,7 +29,6 @@ const App = () => {
               <Portfolio />
               <Contact />
             </main>
-            <Footer />
           </>
         } />
 
