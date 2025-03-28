@@ -15,7 +15,7 @@ const ChatPage = () => {
         setMessages(prev => [...prev, userMessage]);
 
         try {
-            const response = await axios.post("http://localhost:5000/api/chat", {
+            const response = await axios.post("https://port-wdwu.onrender.com/api/chat", {
                 inputs: input
             });
             console.log(response);
